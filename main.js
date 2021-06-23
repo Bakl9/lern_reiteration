@@ -29,3 +29,10 @@ console.log(userAge)
 
 let number = (+'20' + 40, + 20 + 20)
 console.log('сорок ' + number); 
+
+ ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// /////
+
+let userName = ''
+let userNickName = 'фрилансер'
+let user = userName || 'Без имени' || userNickName 
+console.log(user)
