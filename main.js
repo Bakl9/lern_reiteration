@@ -36,3 +36,10 @@ let userName = ''
 let userNickName = 'фрилансер'
 let user = userName || 'Без имени' || userNickName 
 console.log(user)
+
+ ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// /////
+
+let value = 5
+let number = 10
+number >  value || value++
+console.log(value)
