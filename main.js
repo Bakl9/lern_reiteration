@@ -19,4 +19,8 @@ let userName = 'Илья'
 let most = `${userName } + ${userAge}`
 console.log(most)
 
+ ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// /////
 
+let userAge = 'привет'
+userAge = Number(userAge);
+console.log(userAge)
