@@ -57,3 +57,16 @@ one = Number(one)
 console.log(one + two)
 
 console.log('35' * '22' * '20')
+
+ ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// ///// /////
+
+const person = Object.assign({
+    name: 'Ilsha',
+    age: 25,
+});
+
+const newPerson = Object.assign({}, person, {
+    id: 12
+});
+
+console.log(newPerson)
